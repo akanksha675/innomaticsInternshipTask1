@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <style>
+          body {
+            background-image: url('b3.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 130vh; 
+            margin: 0; 
+        }
+       table{
+       margin:auto;
+       border-collapse: collapse;
+      
+       }
+    </style>
+</head>
+<body>
+<header  style="text-align: center;">
+   <h1>&#x1F4B0;Personal Budget Tracker</h1>
+    <a href="#">Add Income Expenses</a><br>
+    <a href="#">View Budget Summary</a>
+</header>
+<section style="text-align: center;">
+    <h2> &#x1F4B8 Welcome To Personal Budget Tracker</h2>
+    <p> &#x1F4DD This Tracker help to manage your monthly expenses.You Can add new entries and view detail Summary of your budget</p>
+    <h1>&#x1F4B5 Add New Income or Expense</h1>
+    <form>
+        <label for="Amount"> &#x1F4B0 Amount</label>     <input type="number"><br><br>
+        <label for="category"> &#x2705 Category</label>  <select name="category" id="category">
+            <option value="Food">&#x1F354 Food</option>
+            <option value="Transportation">&#x1F697 Transportation</option>
+            <option value="Entertainment"> &#x1F3AE Entertainment</option>
+            <option value="Salary">&#x1F4B3 Salary</option>
+            <option value="Savings"> &#x1F3E7 Savings</option>
+            <option value="Utilities">&#x1F4B5 Utilities</option>
+            <option value="Housing"> &#x1F3E0 Housing</option>
+            </select><br><br>
+        <label for="Description">&#x1F4DD Description:</label> <input type="text"><br><br>
+        <label for="Date">&#x1F4C5 Date:</label> <input type="date"><br><br>
+        <label for="type">Type:</label>
+       <input type="radio" id="income" name="type" value="income"> <label for="income">Income</label>
+       <input type="radio" id="expense" name="type" value="expense"> <label for="expense">Expense</label>
+       <br><br>
+        <input type="button" value="Add Entry"> <br><br>
+        <h2>&#x1F4CA Budget Summary</h2>
+        <div classs="table">
+        <table border="2">
+            <thead>
+            <tr>
+                <th rowspan="2">Category</th>
+                <th colspan="2">Transaction Detail</th>
+                <th rowspan="2">Status</th>
+                <th rowspan="2">Action</th>
+            </tr>
+            <tr>
+                <th>Amount</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Food</td>
+                <td>$200</td>
+                <td>Groceries For the week</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Transportation</td>
+                <td>$100</td>
+                <td>Monthly Bus Pass</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Entertainment</td>
+                <td>$50</td>
+                <td>Cinema Tickets</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Salary</td>
+                <td>$3000</td>
+                <td>Monthly Salary Payment</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Savings</td>
+                <td>$500</td>
+                <td>Emergency Fund Deposit</td>
+                <td>Pending</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Utilities</td>
+                <td>$150</td>
+                <td>Electricity Bill</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>$50</td>
+                <td>Waterbill</td>
+                <td>pending</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Housing</td>
+                <td>$1200</td>
+                <td>monthly Rent</td>
+                <td>Pending</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>$300</td>
+                <td>Maintanance Fee</td>
+                <td>Pending</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+           
+        </tbody>
+           
+        </table>
+    </div>
+<br><br>
+   
+<iframe width="560" height="315" style="margin-right: 20px;"src="https://www.youtube.com/embed/INnPo0QPXf4?si=bSY_k1o3gge9gZ0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   <iframe width="560" height="315" src="https://www.youtube.com/embed/WAJ5Cb0qVmI?si=McvV85MSBBdqPf3n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+    </form>
+    
+</section>
+<br>
+<footer style="text-align: center; border-top: 1px solid grey;">
+    <p>&copy; 2025 Personal Budget Tracker | Version 1.0</p>
+    <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+</footer>
+
+</body>
+</html>
